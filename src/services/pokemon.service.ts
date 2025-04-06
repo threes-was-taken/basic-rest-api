@@ -1,4 +1,4 @@
-import { Pokemon } from "../models/pokemon.model";
+import type { Pokemon } from "../models/pokemon.model";
 
 class PokemonService {
   async getAllPokemon(): Promise<Pokemon[]> {
@@ -15,10 +15,22 @@ class PokemonService {
         type: "Fire",
         level: 50,
       },
+      {
+        id: 3,
+        name: "Squirtle",
+        type: "Water",
+        level: 50,
+      },
+      {
+        id: 4,
+        name: "Bulbasaur",
+        type: "Grass",
+        level: 50,
+      },
     ];
   }
 
-  async getPokemon(id: number): Promise<Pokemon> {
+  async getPokemon(id: number): Promise<Pokemon | null> {
     return {
       id,
       name: "Pikachu",
