@@ -1,0 +1,62 @@
+[
+  {
+    "id": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+    "name": "Alan Moore",
+    "bio": "English writer known for his work in comic books and graphic novels, including 'Watchmen' and 'V for Vendetta'.",
+    "birthDate": "1953-11-18T00:00:00.000Z"
+  },
+  {
+    "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
+    "name": "David Goggins",
+    "bio": "American ultramarathon runner, ultra-distance cyclist, triathlete, and motivational speaker.",
+    "birthDate": "1975-02-17T00:00:00.000Z"
+  },
+  {
+    "id": "6ec0bd7f-11c0-43da-975e-2a8ad9ebae0b",
+    "name": "Brad Stulberg",
+    "bio": "American author and speaker known for his work on performance and well-being.",
+    "birthDate": "1983-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "4a93d6a6-7d2b-4c0a-a891-5d3117c35e8c",
+    "name": "Gabriel García Márquez",
+    "bio": "Colombian novelist known for his magical realism style and his novel 'One Hundred Years of Solitude'.",
+    "birthDate": "1927-03-06T00:00:00.000Z"
+  },
+  {
+    "id": "7c0e7693-2587-4d44-9a2b-c383f6f3a887",
+    "name": "James Clear",
+    "bio": "American author and speaker known for his work on habits and decision-making.",
+    "birthDate": "1986-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "5e0b4eff-e59a-4f77-bc5c-5e634954c4d8",
+    "name": "Miyamoto Musashi",
+    "bio": "Japanese swordsman, philosopher, and strategist known for his unique double-bladed swordsmanship.",
+    "birthDate": "1584-03-13T00:00:00.000Z"
+  },
+  {
+    "id": "de305d54-75b4-431b-adb2-eb6b9e546014",
+    "name": "Adam Grant",
+    "bio": "American psychologist and author known for his work on organizational psychology and workplace dynamics.",
+    "birthDate": "1981-08-13T00:00:00.000Z"
+  },
+  {
+    "id": "8d47a13b-3c8e-4b5a-b90c-5d846f8dbf2e",
+    "name": "Cal Newport",
+    "bio": "American author and computer science professor known for his books on productivity and digital minimalism.",
+    "birthDate": "1982-06-23T00:00:00.000Z"
+  },
+  {
+    "id": "c2d2f44a-83d8-41f7-b1d0-2ccc6e093f59",
+    "name": "J.K. Rowling",
+    "bio": "British author best known for the Harry Potter series.",
+    "birthDate": "1965-07-31T00:00:00.000Z"
+  },
+  {
+    "id": "3a6e074f-9f5e-4ec5-8d8d-8e0a0ff05c9a",
+    "name": "Geronimo Stilton",
+    "bio": "Fictional character and the protagonist of a children's book series.",
+    "birthDate": "2000-01-01T00:00:00.000Z"
+  }
+]
