@@ -1,0 +1,162 @@
+[
+  {
+    "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "title": "Watchmen",
+    "authorId": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+    "publicationYear": 1986,
+    "genre": "Graphic Novel",
+    "summary": "Set in an alternate history where superheroes emerged in the 1940s and 1960s, the story follows a group investigating the murder of one of their own."
+  },
+  {
+    "id": "b4c0897a-2bdc-4fb7-bc5e-f9e937b87dc3",
+    "title": "V for Vendetta",
+    "authorId": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+    "publicationYear": 1988,
+    "genre": "Graphic Novel",
+    "summary": "Set in a dystopian future United Kingdom after a nuclear war, a masked vigilante fights against a fascist government."
+  },
+  {
+    "id": "38c7a6f0-b0ca-4514-a964-105ceadbae1a",
+    "title": "Can't Hurt Me",
+    "authorId": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
+    "publicationYear": 2018,
+    "genre": "Memoir",
+    "summary": "David Goggins shares his life story and reveals that most of us tap into only 40% of our capabilities."
+  },
+  {
+    "id": "7dcd8232-c1a8-4f1c-b959-98092a505627",
+    "title": "The Practice of Groundedness",
+    "authorId": "6ec0bd7f-11c0-43da-975e-2a8ad9ebae0b",
+    "publicationYear": 2021,
+    "genre": "Self-Help",
+    "summary": "A practical guide to finding lasting success, happiness, and fulfillment without sacrificing health, relationships, and internal peace."
+  },
+  {
+    "id": "e48b6c35-b5b2-4f6f-9322-05c2d5650e15",
+    "title": "One Hundred Years of Solitude",
+    "authorId": "4a93d6a6-7d2b-4c0a-a891-5d3117c35e8c",
+    "publicationYear": 1967,
+    "genre": "Magical Realism",
+    "summary": "The multi-generational story of the Buendía family, whose patriarch founded the fictional town of Macondo, Colombia."
+  },
+  {
+    "id": "cb0c1c0a-2bde-4f75-8c9e-f08db8b3c7d5",
+    "title": "Love in the Time of Cholera",
+    "authorId": "4a93d6a6-7d2b-4c0a-a891-5d3117c35e8c",
+    "publicationYear": 1985,
+    "genre": "Literary Fiction",
+    "summary": "A love story that spans fifty years and explores the power of love in its many forms."
+  },
+  {
+    "id": "9a51c12c-5c9d-4b1a-8266-76f9f55b20f2",
+    "title": "Atomic Habits",
+    "authorId": "7c0e7693-2587-4d44-9a2b-c383f6f3a887",
+    "publicationYear": 2018,
+    "genre": "Self-Help",
+    "summary": "An easy and proven way to build good habits and break bad ones."
+  },
+  {
+    "id": "d2a5d294-7270-4809-9223-1ef5b66e8ec0",
+    "title": "The Book of Five Rings",
+    "authorId": "5e0b4eff-e59a-4f77-bc5c-5e634954c4d8",
+    "publicationYear": 1645,
+    "genre": "Philosophy",
+    "summary": "A text on kenjutsu and the martial arts in general, written by the Japanese swordsman Miyamoto Musashi."
+  },
+  {
+    "id": "71e1d5f1-81f3-4069-9a01-2a9e6e58adbf",
+    "title": "Think Again",
+    "authorId": "de305d54-75b4-431b-adb2-eb6b9e546014",
+    "publicationYear": 2021,
+    "genre": "Psychology",
+    "summary": "The power of knowing what you don't know and learning to rethink and unlearn."
+  },
+  {
+    "id": "f6b7a21c-5e57-4f12-9345-aa9e471cff9d",
+    "title": "Give and Take",
+    "authorId": "de305d54-75b4-431b-adb2-eb6b9e546014",
+    "publicationYear": 2013,
+    "genre": "Business",
+    "summary": "A revolutionary approach to success, examining how giving can lead to greater success than taking."
+  },
+  {
+    "id": "a3c42f6c-e9bd-4dde-a03a-312877632e01",
+    "title": "Deep Work",
+    "authorId": "8d47a13b-3c8e-4b5a-b90c-5d846f8dbf2e",
+    "publicationYear": 2016,
+    "genre": "Productivity",
+    "summary": "Rules for focused success in a distracted world, arguing for the importance of deep, concentrated work."
+  },
+  {
+    "id": "b2e12a50-734a-4c8b-b7ef-012b4631bf1a",
+    "title": "Digital Minimalism",
+    "authorId": "8d47a13b-3c8e-4b5a-b90c-5d846f8dbf2e",
+    "publicationYear": 2019,
+    "genre": "Technology",
+    "summary": "A philosophy of technology use in which you focus your online time on a small number of carefully selected activities."
+  },
+  {
+    "id": "e2dfdb0b-d12a-4b1c-90e6-e2a0f7867df3",
+    "title": "Harry Potter and the Philosopher's Stone",
+    "authorId": "c2d2f44a-83d8-41f7-b1d0-2ccc6e093f59",
+    "publicationYear": 1997,
+    "genre": "Fantasy",
+    "summary": "The first adventure of Harry Potter, a young wizard who discovers his magical heritage and begins his education at Hogwarts School of Witchcraft and Wizardry."
+  },
+  {
+    "id": "95932a71-4c3a-4e16-8a34-d4a1e7f3d49a",
+    "title": "Harry Potter and the Chamber of Secrets",
+    "authorId": "c2d2f44a-83d8-41f7-b1d0-2ccc6e093f59",
+    "publicationYear": 1998,
+    "genre": "Fantasy",
+    "summary": "In Harry's second year at Hogwarts, a mysterious chamber is opened and students are being petrified."
+  },
+  {
+    "id": "c7ed44c9-5a32-4b72-9d5a-f97bc3a2e0f3",
+    "title": "The Lost Treasure of the Emerald Eye",
+    "authorId": "3a6e074f-9f5e-4ec5-8d8d-8e0a0ff05c9a",
+    "publicationYear": 2004,
+    "genre": "Children's Fiction",
+    "summary": "Geronimo Stilton embarks on a treasure hunt after finding a mysterious map."
+  },
+  {
+    "id": "5e91dbb1-7d9a-4b98-9cab-e4b9c6e8c639",
+    "title": "The Curse of the Cheese Pyramid",
+    "authorId": "3a6e074f-9f5e-4ec5-8d8d-8e0a0ff05c9a",
+    "publicationYear": 2004,
+    "genre": "Children's Fiction",
+    "summary": "Geronimo Stilton travels to Egypt to write about the famous Egyptian cheese pyramids."
+  },
+  {
+    "id": "f8d2e8e5-9c6d-4f5c-8e9b-7a5d1d0b4c3a",
+    "title": "Peak Performance",
+    "authorId": "6ec0bd7f-11c0-43da-975e-2a8ad9ebae0b",
+    "publicationYear": 2017,
+    "genre": "Self-Help",
+    "summary": "A book about elevating your game, avoiding burnout, and thriving with the science of success."
+  },
+  {
+    "id": "c1b2e3f4-5d6e-7f8a-9b0c-1d2e3f4a5b6c",
+    "title": "Never Finished",
+    "authorId": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
+    "publicationYear": 2022,
+    "genre": "Self-Help",
+    "summary": "A memoir that offers a raw, powerful, and profoundly inspiring account of how to master your mind and defy the odds."
+  },
+  {
+    "id": "a7b8c9d0-e1f2-g3h4-i5j6-k7l8m9n0o1p2",
+    "title": "Dorodango",
+    "authorId": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+    "publicationYear": 2001,
+    "genre": "Graphic Novel",
+    "summary": "A graphic novel exploring the Japanese art of polishing mud into perfect spheres as a metaphor for finding perfection in simplicity."
+  },
+  {
+    "id": "q1r2s3t4-u5v6-w7x8-y9z0-a1b2c3d4e5f6",
+    "title": "The Way Forward",
+    "authorId": "7c0e7693-2587-4d44-9a2b-c383f6f3a887",
+    "publicationYear": 2022,
+    "genre": "Self-Help",
+    "summary": "A practical guide to establishing habits that lead to lasting positive change and continuous self-improvement."
+  }
+]
