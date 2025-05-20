@@ -1,29 +1,96 @@
+import { zValidator } from '@hono/zod-validator';
 import { Hono } from 'hono';
+import { describeRoute } from 'hono-openapi';
+import { resolver } from 'hono-openapi/zod';
+import type { RequestIdVariables } from 'hono/request-id';
+import { bookWithIdSchema } from '../models/book.model.ts';
+import { errorResponseSchema } from '../schemas/error.schema.ts';
+import { idValidationSchema } from '../schemas/validation.schema.ts';
 import { BookService } from '../services/book.service.ts';
 
-const bookRouter = new Hono();
+const bookRouter = new Hono<{ Variables: RequestIdVariables }>();
 const bookService = new BookService();
 
-bookRouter.get('/', async (c) => {
-  const books = await bookService.getAllBooks();
-  return c.json(books);
-});
+bookRouter.get(
+  '/',
+  describeRoute({
+    tags: ['BOOKS'],
+    description: 'Returns a list of all books',
+    summary: 'Get all books',
+    responses: {
+      200: {
+        description: 'List of books',
+        content: {
+          'application/json': {
+            schema: resolver(bookWithIdSchema),
+          },
+        },
+      },
+    },
+  }),
+  async (c) => {
+    const books = await bookService.getAllBooks();
 
-bookRouter.get('/:id', async (c) => {
-  const id = c.req.param('id');
-
-  if (!id) {
-    return c.json({ error: 'ID parameter is required' }, 400);
+    return c.json(books);
   }
+);
 
-  const book = await bookService.getBookById(id);
+bookRouter.get(
+  '/:id',
+  describeRoute({
+    tags: ['BOOKS'],
+    description: "Returns a book by it's ID",
+    summary: 'Get a book by ID',
+    parameters: [
+      {
+        name: 'id',
+        in: 'path',
+      },
+    ],
+    responses: {
+      200: {
+        description: 'Book found',
+        content: {
+          'application/json': {
+            schema: resolver(bookWithIdSchema),
+          },
+        },
+      },
+      400: {
+        description: 'Invalid request',
+        content: {
+          'application/json': {
+            schema: resolver(errorResponseSchema),
+          },
+        },
+      },
+      404: {
+        description: 'Book not found',
+        content: {
+          'application/json': {
+            schema: resolver(errorResponseSchema),
+          },
+        },
+      },
+    },
+  }),
+  zValidator('param', idValidationSchema),
+  async (c) => {
+    const id = c.req.valid('param');
 
-  if (!book) {
-    return c.json({ error: 'Book not found' }, 404);
+    if (!id) {
+      return c.json({ error: 'ID parameter is required' }, 400);
+    }
+
+    const book = await bookService.getBookById(id);
+
+    if (!book) {
+      return c.json({ error: 'Book not found' }, 404);
+    }
+
+    return c.json(book);
   }
-
-  return c.json(book);
-});
+);
 
 bookRouter.post('/', async (c) => {
   const book = await c.req.json();

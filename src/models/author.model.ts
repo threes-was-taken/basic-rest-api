@@ -1,19 +1,25 @@
 import { z } from 'zod';
 
-const authorSchema = z.object({
-  name: z.string().min(1, { message: 'Name is required' }),
-  bio: z.string().optional(),
-  birthDate: z
-    .string()
-    .optional()
-    .refine((date) => {
-      if (!date) {
-        return true;
-      }
-      const parsedDate = new Date(date);
-      return !isNaN(parsedDate.getTime());
-    }),
-});
+import 'zod-openapi/extend';
+
+const authorSchema = z
+  .object({
+    name: z.string().min(1, { message: 'Name is required' }),
+    bio: z.string().optional(),
+    birthDate: z
+      .string()
+      .optional()
+      .refine((date) => {
+        if (!date) {
+          return true;
+        }
+        const parsedDate = new Date(date);
+        return !isNaN(parsedDate.getTime());
+      }),
+  })
+  .openapi({
+    ref: 'Author',
+  });
 
 const authorWithIdSchema = authorSchema.extend({
   id: z.string().uuid({ message: 'Invalid UUID format' }),
